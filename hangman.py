@@ -1,4 +1,4 @@
-## ASCII pics for the nooze.
+## ASCII pics for the noose.
 HANGMAN_PICS = [
 	'''
   +---+
