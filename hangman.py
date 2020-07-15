@@ -1,4 +1,5 @@
 ## ASCII pics for the noose.
+#Data
 HANGMAN_PICS = [
 	'''
   +---+
