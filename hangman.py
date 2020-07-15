@@ -72,4 +72,4 @@ def test():
 
 ## Program 
 
-
+print('HANGMAN')
