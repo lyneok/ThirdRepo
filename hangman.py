@@ -1,5 +1,5 @@
 ## ASCII pics for the noose.
-#Data
+# Data
 HANGMAN_PICS = [
 	'''
   +---+
@@ -52,14 +52,14 @@ HANGMAN_PICS = [
 WORDS = 'snake zombie sphinx vaporize unknown rhythm xylophone strength oxygen luxury jogging awkward subway equip buffalo jinx pajamas wristwatch zodiac queue wizard puppy kiwifruit fluffy jawbreaker'.split(' ')
 
 
-#Functions
+# Functions
 
 def getRandomWord():
     import random
     idx = random.randint(0, len(WORDS)-1)
     return WORDS[idx]
 
-#Count the number of different letters in a word
+# Count the number of different letters in a word
 def count_letters_in_(word):
     return len(set(word))
 
@@ -73,3 +73,4 @@ def test():
 ## Program 
 
 print('HANGMAN')
+print ('You are about to start playing...')
